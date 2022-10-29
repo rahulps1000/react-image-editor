@@ -108,7 +108,7 @@ button:active {
 
   .buttons {
     flex-direction: column;
-    height: max-content;
+    height: max-content; 
     width: 20%;
   }
 

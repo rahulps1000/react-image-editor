@@ -53,7 +53,7 @@ const ImageHolder = forwardRef((props, ref) => {
     <div className="ImageHolder" onClick={onButtonClick}>
         {
             image_path != null ?
-                <img ref={imageRef} src={image_path} alt={""} style={props.style} id="preview" onClick={SaveImage}/>
+                <img ref={imageRef} src={image_path} alt={""} style={props.style} id="preview"/>
                 : 
             <div className="ImageHolder_placeholder">
                 <input type='file' id='file' accept="image/*" ref={inputFile} onChange={onSelectImage}/>
