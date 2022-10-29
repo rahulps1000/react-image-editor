@@ -1,0 +1,21 @@
+.Adjustment_title {
+    color: #ffffffb6;
+    padding: 5px 0;
+}
+
+input {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1072px) {
+    .Adjustments {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Adjustments {
+        width: 90%;
+    }
+}

@@ -1,0 +1,50 @@
+.ImageHolder {
+    width: 70%;
+    height: -webkit-fill-available;
+    background-color: #2e2e2e;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.ImageHolder img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.ImageHolder_placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: #ffffff3d;
+}
+
+.ImageHolder_placeholder svg {
+    font-size: 80px;
+}
+
+.ImageHolder_placeholder input {
+    display: none;
+}
+
+.closeicon {
+    position: absolute;
+    font-size: 22px;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1072px) {
+    .ImageHolder {
+        height: 70vh;
+        width: inherit;
+    }
+}
